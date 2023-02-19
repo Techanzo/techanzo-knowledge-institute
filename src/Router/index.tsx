@@ -5,7 +5,7 @@ import * as routes from './routes';
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path={routes.root.path} element={<Home />} />
       </Routes>
