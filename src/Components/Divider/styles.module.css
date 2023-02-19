@@ -1,0 +1,14 @@
+.root {
+  /* FIXME: use colors from theme */
+  background-color: #444;
+}
+
+.horizontal {
+  width: 100%;
+  height: 1px;
+}
+
+.vertical {
+  height: 100%;
+  width: 1px;
+}

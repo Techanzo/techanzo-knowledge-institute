@@ -1,0 +1,20 @@
+.root {
+  font-size: 0.875rem;
+  position: relative;
+}
+
+.description > p {
+  font-size: 0.75rem;
+}
+
+.tag {
+  position: absolute;
+  top: 50%;
+  right: 4rem;
+  transform: translateY(-50%);
+}
+
+.duration {
+  opacity: 0.8;
+  margin-left: auto;
+}

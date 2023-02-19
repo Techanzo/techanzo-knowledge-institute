@@ -1,0 +1,24 @@
+.lecture {
+  position: relative;
+}
+
+.lecture .sequenceNum {
+  font-weight: 700;
+}
+
+.lecture .tag {
+  position: absolute;
+  top: 50%;
+  right: 4rem;
+  transform: translateY(-50%);
+}
+
+.lecture .duration {
+  opacity: 0.8;
+  margin-left: auto;
+}
+
+.topics {
+  margin-top: 0.5rem;
+  margin-left: 1.8rem;
+}

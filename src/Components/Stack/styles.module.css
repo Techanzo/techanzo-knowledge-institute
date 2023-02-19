@@ -1,0 +1,82 @@
+.root {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+.columnReverse {
+  flex-direction: column-reverse;
+}
+.rowReverse {
+  flex-direction: row-reverse;
+}
+
+.justifyContentFlexStart {
+  justify-content: flex-start;
+}
+.justifyContentFlexEnd {
+  justify-content: flex-end;
+}
+.justifyContentCenter {
+  justify-content: flex-center;
+}
+.justifyContentStretch {
+  justify-content: stretch;
+}
+.justifyContentSpaceAround {
+  justify-content: space-around;
+}
+.justifyContentSpaceBetween {
+  justify-content: space-between;
+}
+.justifyContentSpaceEvenly {
+  justify-content: space-evenly;
+}
+.justifyContentUnset {
+  justify-content: unset;
+}
+.justifyContentInherit {
+  justify-content: inherit;
+}
+
+.alignItemsFlexStart {
+  align-items: flex-start;
+}
+.alignItemsFlexEnd {
+  align-items: flex-end;
+}
+.alignItemsCenter {
+  align-items: center;
+}
+.alignItemsStretch {
+  align-items: stretch;
+}
+.alignItemsBaseline {
+  align-items: baseline;
+}
+.alignItemsUnset {
+  align-items: unset;
+}
+.alignItemsInherit {
+  align-items: inherit;
+}
+
+.flexWrapWrap {
+  flex-wrap: wrap;
+}
+.flexWrapWrapReverse {
+  flex-wrap: wrap-reverse;
+}
+.flexWrapNoWrap {
+  flex-wrap: nowrap;
+}
+.flexWrapUnset {
+  flex-wrap: unset;
+}
+.flexWrapInherit {
+  flex-wrap: inherit;
+}

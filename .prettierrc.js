@@ -1,0 +1,15 @@
+module.exports = {
+  trailingComma: 'es5',
+  tabWidth: 2,
+  useTabs: false,
+  singleQuote: true,
+  printWidth: 110,
+  importOrder: ['^react', '^@\\w', '^[A-Za-z]', '^\\.'],
+  importOrderBuiltinModulesToTop: true,
+  importOrderCaseInsensitive: true,
+  importOrderParserPlugins: ['typescript', 'jsx', 'decorators-legacy'],
+  importOrderMergeDuplicateImports: true,
+  importOrderCombineTypeAndValueImports: true,
+  importOrderSeparation: true,
+  importOrderSortSpecifiers: true,
+};

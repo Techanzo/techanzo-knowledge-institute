@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Greycliff';
+  font-weight: 400;
+  src: url('greycliff-fonts/regular.otf');
+}
+
+@font-face {
+  font-family: 'Greycliff';
+  font-weight: 800;
+  src: url('greycliff-fonts/extrabold.otf');
+}

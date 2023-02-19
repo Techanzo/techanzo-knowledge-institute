@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+.container-fluid {
+  max-width: 100%;
+  padding: 0 0.5rem;
+}
+
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    padding: 0;
+  }
+  .container-fluid {
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    padding: 0;
+  }
+  .container-fluid {
+    padding: 0 2rem;
+  }
+}

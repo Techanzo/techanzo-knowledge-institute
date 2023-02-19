@@ -1,0 +1,19 @@
+.root {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0px 50px 60px rgb(0 0 0 / 10%);
+}
+
+.total {
+  font-weight: 500;
+}
+
+.separator {
+  height: 2px;
+  margin: 0.5rem 0;
+  background-image: url(../../../../images/lecture-separator.png);
+  background-size: 8px 2px;
+  background-repeat: repeat-x;
+}

@@ -1,0 +1,1230 @@
+{
+  "courses": [
+    {
+      "name": "Javascript & React",
+      "details": {
+        "title": "What will you learn?",
+        "description": [
+          "The course is complete, yet accessible for beginners. We will start by discovering what WebGL is and why using the Three.js library is a must. We will then discover the various components of Three.js and once the basics are acquired, we will move on to more advanced techniques to display millions of particles, add physics, add interactions, create a galaxy, animate a raging sea, etc.",
+          "At the end of the course, you will have a deep understanding of Three.js and enough experience to start your own projects.",
+          "As a bonus, we will also learn how to use the 3D software Blender to be able to create our own models."
+        ],
+        "modules": [
+          {
+            "name": "Core Javascript",
+            "description": [
+              "Create your first scene and understand fundamentals like cameras, geometries, materials, textures.",
+              "Add a debug panel to tweak your environment and animate everything."
+            ],
+            "lectures": [
+              {
+                "name": "Introduction and history",
+                "duration": 120,
+                "topics": [
+                  { "name": "Introduction and history of Javascript", "duration": 0 },
+                  { "name": "w3 manuals & ECMA Script specifications", "duration": 0 },
+                  { "name": "Code editors", "duration": 0 },
+                  { "name": "Developer tools", "duration": 0 }
+                ]
+              },
+              {
+                "name": "Javascript fundamentals",
+                "duration": 1260,
+                "topics": [
+                  {
+                    "name": "Where should I write Javascript?",
+                    "description": [
+                      "Javascript writing, linking and precendence",
+                      "Code formatting and readability",
+                      "use Strict"
+                    ],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Variables",
+                    "description": [
+                      "Introduction to Variables",
+                      "let and const - under the hood",
+                      "var - introductory guide"
+                    ],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Browser interaction - Alert, Prompt and Confirm",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Data-types",
+                    "description": [
+                      "Primitive data-types - under the hood",
+                      "Primitive data-types conversion",
+                      "Non-primitive data-types - introductory guide"
+                    ],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Operators",
+                    "description": [
+                      "Arithmatic, Comparison, Logical, Bitwise",
+                      "Operator overloading",
+                      "Operator precedence and expressions",
+                      "The Nullish coalescing operator"
+                    ],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Flow control",
+                    "description": [
+                      "if ... else if ... else",
+                      "ternary operation",
+                      "switch case",
+                      "while",
+                      "do while",
+                      "for"
+                    ],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Functions basics",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Code quality and debugging",
+                "duration": 0,
+                "tags": ["add-on"],
+                "topics": [
+                  {
+                    "name": "Coding style",
+                    "description": [
+                      "Linting",
+                      "Prettier",
+                      "Naming convention",
+                      "File structure",
+                      "VS code settings"
+                    ],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Ninja code",
+                    "description": ["Short code - ideas and implementation", "Short naming conventions"],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Debugging",
+                    "description": [
+                      "Elements, Console and Sources tabs in browser developer tools",
+                      "Breakpoints in browser",
+                      "Breakpoints in VS Code"
+                    ],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Comments",
+                    "description": [
+                      "Single-line comments",
+                      "Multi-line comments",
+                      "Conventions - TODO, FIXME",
+                      "JS Docs"
+                    ],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Testing your code - Basics",
+                    "description": [
+                      "Testing your code with third party libraries - Mocha and Chai",
+                      "Spying with Sinon"
+                    ],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Transpilers (Babel) and Polyfills",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Objects",
+                "duration": 600,
+                "topics": [
+                  {
+                    "name": "Object - basics",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Reference and Copying",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Garbage collection",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Object methods and method chaining",
+                    "duration": 0
+                  },
+                  {
+                    "name": "this keyword",
+                    "duration": 0
+                  },
+                  {
+                    "name": "new keyword",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Optional chaining",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Symbol type",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Object to primitive conversion",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Object oriented programming",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Advanced data-types",
+                "duration": 840,
+                "topics": [
+                  {
+                    "name": "Methods - Introduction",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Numbers and its methods",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Strings and its methods",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Arrays and its methods",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Iterables",
+                    "description": ["for ... of loop", "for ... in loop"],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Map & WeakMap and its methods",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Set & WeakSet and its methods",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Object - keys, values and entries",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Destructuring and type assignment",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Date & Time - Introduction",
+                    "duration": 0
+                  },
+                  {
+                    "name": "JSON - stringify, parse",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Date & Time",
+                "duration": 0,
+                "tags": ["add-on"],
+                "topics": [
+                  {
+                    "name": "Javascript Date & Time - in-depth",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Unleash power of date-fns for easy working with Date & Time",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Advanced functions",
+                "duration": 1020,
+                "topics": [
+                  {
+                    "name": "Broswer stack",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Javascript engine",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Variable environment and Scope",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Iteration and Recursion with differences",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Rest params and Spread syntax",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Closure",
+                    "duration": 0
+                  },
+                  {
+                    "name": "var keyword",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Global object",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Function as an object",
+                    "duration": 0
+                  },
+                  {
+                    "name": "new keyword",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Browser scheduling",
+                    "description": [
+                      "Basic introduction to asyncronity",
+                      "setTimeout",
+                      "setInterval",
+                      "clearInterval"
+                    ],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Engine communications",
+                    "description": [
+                      "Communication between Javascript engine and Browser engine",
+                      "Communication between HTML & CSS engines and Browser engine"
+                    ],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Decorators",
+                    "duration": 0
+                  },
+                  {
+                    "name": "call, apply and bind",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Arrow functions - in-depth",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Currying",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Advanced objects and class",
+                "duration": 1020,
+                "topics": [
+                  {
+                    "name": "Property flags and descriptors",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Property getter and setter",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Prototypal inheritance",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Function related prototype (F.Prototype)",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Native prototypes",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Prototype methods and Objects without __proto__",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Class basic syntax",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Class inheritance and Diamond problem",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Static properties and methods",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Class modifiers - private, public and protected",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Extending built-in classes",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Class checking with \"instanceof\" keyword",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Mixins",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Error handling",
+                "duration": 240,
+                "topics": [
+                  {
+                    "name": "try ... catch ... finally",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Custom errors and extending errors",
+                    "duration": 0
+                  }
+                ]
+              }
+            ],
+            "color": "#ff6651"
+          },
+          {
+            "name": "DOM",
+            "description": [
+              "Illuminate your scene with various lights, start practicing environment creation and create millions of particles."
+            ],
+            "lectures": [
+              {
+                "name": "Document",
+                "duration": 840,
+                "topics": [
+                  {
+                    "name": "Host environment of Javascript",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Window object",
+                    "duration": 0
+                  },
+                  {
+                    "name": "DOM tree",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Walking the DOM",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Searching through the DOM",
+                    "duration": 0
+                  },
+                  {
+                    "name": "DOM node properties",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Attributes and properties",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Modifying the document",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Modifying styles and class",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Element size and scrolling",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Window size and scrolling",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Coordinates",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Events",
+                "duration": 420,
+                "topics": [
+                  {
+                    "name": "Introduction to browser events",
+                    "description": [
+                      "Communication between JS & Browser",
+                      "Event object and properties",
+                      "Event prototype",
+                      "Event special methods"
+                    ],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Event bubbling and capturing",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Event delegation",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Browser default actions",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Dispatching custom events",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "UI Events",
+                "duration": 420,
+                "topics": [
+                  {
+                    "name": "Mouse events",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Moving mouse",
+                    "description": ["Mouse over and Mouse out", "Mouse enter and Mouse leave"],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Drag and drop events",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Pointer events",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Keyboard events",
+                    "description": ["keydown", "keyup", "keypress"],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Scrolling",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Forms and Controls",
+                "duration": 300,
+                "topics": [
+                  {
+                    "name": "Form properties and methods",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Focusing: focus and blur",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Events: change, input, cut / copy / paste",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Form submission",
+                    "duration": 0
+                  }
+                ]
+              },
+              { "name": "Mini project - 1", "duration": 300 },
+              {
+                "name": "Mini project - 2",
+                "duration": 300,
+                "tags": ["optional"]
+              },
+              {
+                "name": "Mini project - 3",
+                "duration": 300,
+                "tags": ["optional"]
+              }
+            ],
+            "color": "#54baf3"
+          },
+          {
+            "name": "Advanced Javascript",
+            "description": [
+              "Add physics to your world so that objects start to collide and stumble. Then import your own model made with Blender and make it look as realistic as possible."
+            ],
+            "lectures": [
+              {
+                "name": "Callbacks",
+                "duration": 120,
+                "topics": [
+                  {
+                    "name": "Introduction",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Under the hood - in browser",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Callback hell",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Promise",
+                "duration": 420,
+                "topics": [
+                  {
+                    "name": "Introduction",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Chaining",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Error handling",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Promification - converting to Promise",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Under the hood - in browser",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Async/await",
+                "duration": 120,
+                "topics": [
+                  {
+                    "name": "Introduction",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Multiple await in a single async function",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Error handling",
+                    "duration": 0
+                  }
+                ]
+              },
+              { "name": "Iterators", "duration": 120, "tags": ["optional"] },
+              {
+                "name": "Generators",
+                "duration": 300,
+                "tags": ["optional"],
+                "topics": [
+                  {
+                    "name": "Introduction",
+                    "duration": 0
+                  },
+                  {
+                    "name": "yield keyword",
+                    "duration": 0
+                  },
+                  {
+                    "name": "yield v/s await",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Create async/await using generator function",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Modules",
+                "duration": 300,
+                "topics": [
+                  {
+                    "name": "Introduction",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Imports",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Exports",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Dynamic imports",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Miscellaneous",
+                "duration": 480,
+                "topics": [
+                  {
+                    "name": "Programming paradigm",
+                    "duration": 0
+                  },
+                  {
+                    "name": "big int",
+                    "tags": ["optional"],
+                    "duration": 0
+                  },
+                  {
+                    "name": "unicode characters",
+                    "tags": ["optional"],
+                    "duration": 0
+                  },
+                  {
+                    "name": "eval function",
+                    "tags": ["optional"],
+                    "duration": 0
+                  },
+                  {
+                    "name": "Project architecture",
+                    "duration": 0
+                  }
+                ]
+              }
+            ],
+            "color": "#ffb905"
+          },
+          {
+            "name": "Advanced DOM",
+            "description": [
+              "Using Three.js materials is great but creating your own is even better.",
+              "Learn the shader language to unleash the true power of WebGL and create stunning experiences!"
+            ],
+            "lectures": [
+              {
+                "name": "Document and resource loading",
+                "duration": 180,
+                "topics": [
+                  {
+                    "name": "Document load and events",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Resource load and events",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "DOM Observers, selection and range",
+                "duration": 180,
+                "topics": [
+                  {
+                    "name": "Mutation observer",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Intersection observer",
+                    "duration": 0
+                  },
+                  {
+                    "name": "DOM selection and range",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Animations",
+                "duration": 420,
+                "tags": ["add-on"],
+                "topics": [
+                  {
+                    "name": "Bezier curves",
+                    "duration": 0
+                  },
+                  {
+                    "name": "CSS animations",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Javascript animations",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Web components",
+                "duration": 540,
+                "tags": ["add-on"],
+                "topics": [
+                  {
+                    "name": "Introduction",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Custom element",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Shadow dom",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Template elements",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Shadow dom slots",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Composition",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Shadow dom styling",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Shadow dom events",
+                    "duration": 0
+                  }
+                ]
+              }
+            ],
+            "color": "#705df2"
+          },
+          {
+            "name": "Browser functionalities",
+            "description": [
+              "Once you know shaders, it's the opportunity to go even further and try new techniques.",
+              "But it's also important to make sure your projects are working on most devices by monitoring and optimising performance."
+            ],
+            "lectures": [
+              {
+                "name": "Event loop and its surroundings",
+                "duration": 120,
+                "topics": [
+                  {
+                    "name": "Event loop and its working",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Micro-task queue",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Macro-task queue",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Binary data and files",
+                "duration": 180,
+                "topics": [
+                  {
+                    "name": "Array buffer",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Binary array",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Blob",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Text encoder and decoder",
+                    "duration": 0
+                  },
+                  {
+                    "name": "File",
+                    "duration": 0
+                  },
+                  {
+                    "name": "File reader",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Network requests and techniques",
+                "duration": 900,
+                "topics": [
+                  {
+                    "name": "fetch and XHR",
+                    "duration": 0
+                  },
+                  {
+                    "name": "FormData",
+                    "duration": 0
+                  },
+                  {
+                    "name": "fetch and XHR - download progress",
+                    "duration": 0
+                  },
+                  {
+                    "name": "fetch and XHR - abort",
+                    "duration": 0
+                  },
+                  {
+                    "name": "fetch and XHR - cross-origin request",
+                    "duration": 0
+                  },
+                  {
+                    "name": "fetch and XHR - how it works",
+                    "duration": 0
+                  },
+                  {
+                    "name": "url object",
+                    "duration": 0
+                  },
+                  {
+                    "name": "XML HTTP request",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Resumable file upload",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Long polling",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Web sockets",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Server sent events",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Data storage",
+                "duration": 300,
+                "topics": [
+                  {
+                    "name": "Cookies",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Local storage",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Session storage",
+                    "duration": 0
+                  },
+                  {
+                    "name": "indexedDB",
+                    "duration": 0
+                  }
+                ]
+              },
+              { "name": "Final Project - 1", "duration": 600 },
+              { "name": "Final Project - 2", "duration": 600, "tags": ["optional"] },
+              { "name": "Final Project - 3", "duration": 600, "tags": ["optional"] }
+            ],
+            "color": "#666789"
+          },
+          {
+            "name": "React",
+            "description": [
+              "Once you know shaders, it's the opportunity to go even further and try new techniques.",
+              "But it's also important to make sure your projects are working on most devices by monitoring and optimising performance."
+            ],
+            "lectures": [
+              {
+                "name": "React Introduction",
+                "duration": 120
+              },
+              {
+                "name": "Development environment",
+                "duration": 60
+              },
+              {
+                "name": "JSX and Fragment",
+                "duration": 120
+              },
+              {
+                "name": "Components",
+                "duration": 120,
+                "topics": [
+                  {
+                    "name": "Class based components",
+                    "duration": 0
+                  },
+                  {
+                    "name": "Functional components",
+                    "duration": 0
+                  }
+                ]
+              },
+              {
+                "name": "Props",
+                "duration": 120,
+                "topics": [
+                  { "name": "Props - class based components", "duration": 0 },
+                  { "name": "Props - functional components", "duration": 0 }
+                ]
+              },
+              {
+                "name": "Events",
+                "duration": 120,
+                "topics": [
+                  { "name": "Events - class based components", "duration": 0 },
+                  { "name": "Events - functional components", "duration": 0 }
+                ]
+              },
+              { "name": "State and setState - class based components", "duration": 120 },
+              {
+                "name": "Lists and keys",
+                "duration": 60,
+                "topics": [
+                  { "name": "Lists and keys - class based components", "duration": 0 },
+                  { "name": "Lists and keys - functional components", "duration": 0 }
+                ]
+              },
+              { "name": "Lifecycle methods - class based components", "duration": 180 },
+              {
+                "name": "Basic hooks",
+                "duration": 180,
+                "topics": [
+                  { "name": "Introduction to hooks", "duration": 0 },
+                  { "name": "useState", "duration": 0 },
+                  { "name": "useEffect", "duration": 0 }
+                ]
+              },
+              { "name": "Conditional rendering", "duration": 60 },
+              { "name": "Composition v/s inheritance", "duration": 60 },
+              { "name": "className and styling with CSS", "duration": 60 },
+              { "name": "Introduction to third party libraries", "duration": 90 },
+              { "name": "clsx", "duration": 30 },
+              {
+                "name": "Styling with 3rd party libraries",
+                "duration": 780,
+                "tags": ["add-on"],
+                "topics": [
+                  { "name": "Tailwind", "duration": 240 },
+                  { "name": "SASS / SCSS", "duration": 240 },
+                  { "name": "CSS Modules", "duration": 120 },
+                  { "name": "styled-components", "duration": 180 }
+                ]
+              },
+              { "name": "Prop-types", "duration": 120 },
+              { "name": "Working with refs - ref and useRef", "duration": 240 },
+              { "name": "Data handling with fetch and axios", "duration": 240 },
+              { "name": "Routing - react-router and react-router-dom", "duration": 420 },
+              {
+                "name": "Material UI",
+                "duration": 1200,
+                "tags": ["add-on"],
+                "topics": [
+                  { "name": "Material UI", "duration": 900 },
+                  { "name": "Mini Project", "duration": 300 }
+                ]
+              },
+              {
+                "name": "Forms",
+                "duration": 240,
+                "topics": [
+                  { "name": "Introduction to Forms", "duration": 0 },
+                  {
+                    "name": "Form components",
+                    "description": ["Controlled components", "Uncontrolled components"],
+                    "duration": 0
+                  },
+                  { "name": "Form submission", "duration": 0 }
+                ]
+              },
+              {
+                "name": "Formik",
+                "duration": 720,
+                "tags": ["add-on"],
+                "topics": [
+                  { "name": "Formik", "duration": 420 },
+                  { "name": "Mini Project", "duration": 300 }
+                ]
+              },
+              {
+                "name": "RHF (react-hook-form)",
+                "duration": 720,
+                "tags": ["add-on"],
+                "topics": [
+                  { "name": "RHF", "duration": 420 },
+                  { "name": "Mini Project", "duration": 300 }
+                ]
+              },
+              { "name": "Portal", "duration": 120 },
+              {
+                "name": "Built-in performance optimization hooks",
+                "duration": 120,
+                "topics": [
+                  { "name": "useCallback", "duration": 0 },
+                  { "name": "useMemo", "duration": 0 }
+                ]
+              },
+              { "name": "Custom hooks", "duration": 180 },
+              { "name": "ref forwarding and DOM", "duration": 180 },
+              { "name": "Render props pattern", "duration": 60 },
+              { "name": "Error boundary", "duration": 120 },
+              { "name": "Higher order components", "duration": 120 },
+              { "name": "React server components and client components", "duration": 180 },
+              { "name": "Memoizing React components - memo", "duration": 60 },
+              { "name": "Context API", "duration": 180 },
+              {
+                "name": "Redux",
+                "duration": 1500,
+                "topics": [
+                  { "name": "Redux concepts", "duration": 0 },
+                  { "name": "Redux without toolkit", "duration": 0 },
+                  { "name": "Redux toolkit", "duration": 0 },
+                  { "name": "react-redux", "duration": 0 },
+                  { "name": "Mini Project", "duration": 300, "tags": ["optional"] }
+                ]
+              },
+              {
+                "name": "GraphQL and Apollo",
+                "duration": 1920,
+                "tags": ["add-on"]
+              },
+              {
+                "name": "Internationalization in React",
+                "duration": 180,
+                "tags": ["add-on"]
+              },
+              {
+                "name": "Project - 1",
+                "duration": 600
+              },
+              {
+                "name": "Project - 2",
+                "duration": 600,
+                "tags": ["optional"]
+              },
+              {
+                "name": "Project - 3",
+                "duration": 600,
+                "tags": ["optional"]
+              },
+              {
+                "name": "Suspense",
+                "duration": 120
+              },
+              {
+                "name": "Patterns / Anti-patterns",
+                "duration": 180,
+                "tags": ["optional"]
+              },
+              {
+                "name": "Advanced JSX",
+                "duration": 300,
+                "topics": [
+                  { "name": "Transpiler (Babel) - under the hood", "duration": 0 },
+                  { "name": "React without JSX", "duration": 0 },
+                  { "name": "scope", "duration": 0 },
+                  { "name": "type", "duration": 0 }
+                ]
+              },
+              {
+                "name": "Module bundlers",
+                "duration": 1200,
+                "tags": ["add-on"],
+                "topics": [
+                  { "name": "Webpack", "duration": 0 },
+                  { "name": "Parcel", "duration": 0 },
+                  { "name": "Vite", "duration": 0 },
+                  { "name": "Rollup", "duration": 0 }
+                ]
+              },
+              {
+                "name": "Performance optimization",
+                "duration": 540,
+                "topics": [
+                  { "name": "Code splitting", "duration": 0 },
+                  { "name": "Production build", "duration": 0 },
+                  { "name": "Profiler - dev-tools", "duration": 0 }
+                ]
+              },
+              {
+                "name": "Advanced topics",
+                "duration": 2400,
+                "tags": ["add-on"],
+                "topics": [
+                  { "name": "Pagination", "duration": 240 },
+                  {
+                    "name": "Infinite scroll",
+                    "duration": 420,
+                    "topics": [
+                      { "name": "Approach 1 - paginated API", "duration": 0 },
+                      { "name": "Approach 2 - last record id based API", "duration": 0 }
+                    ]
+                  },
+                  {
+                    "name": "Virtualization",
+                    "duration": 900,
+                    "topics": [
+                      { "name": "Virtualization of fixed height items", "duration": 0 },
+                      { "name": "Virtualization of dynamic height items", "duration": 0 }
+                    ]
+                  },
+                  { "name": "Search and Filter", "duration": 840 }
+                ]
+              },
+              {
+                "name": "Strict mode",
+                "duration": 120,
+                "topics": [
+                  { "name": "Identifying unsafe lifecycles", "duration": 0 },
+                  { "name": "Detecting unexpected side-effects", "duration": 0 },
+                  { "name": "Detecting legacy context API", "duration": 0 },
+                  { "name": "Ensuring reusable state", "duration": 0 },
+                  { "name": "Identifying unsafe lifecycles", "duration": 0 }
+                ]
+              },
+              {
+                "name": "Testing",
+                "duration": 2400,
+                "tags": ["add-on"],
+                "topics": [
+                  { "name": "Testing approaches", "duration": 0 },
+                  { "name": "Jest", "duration": 0 },
+                  { "name": "Enzyme", "duration": 0 },
+                  { "name": "@react-testing-libaray", "duration": 0 }
+                ]
+              }
+            ],
+            "color": "#54baf3"
+          }
+        ]
+      }
+    }
+  ]
+}
