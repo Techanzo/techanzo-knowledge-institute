@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/techanzo-knowledge-institute/static/css/main.ed9b3873.css",
-    "main.js": "/techanzo-knowledge-institute/static/js/main.5ff5c8b9.js",
+    "main.js": "/techanzo-knowledge-institute/static/js/main.516457fb.js",
     "static/js/787.55339e17.chunk.js": "/techanzo-knowledge-institute/static/js/787.55339e17.chunk.js",
     "static/media/extrabold.otf": "/techanzo-knowledge-institute/static/media/extrabold.61419855b3f79b26d40d.otf",
     "static/media/regular.otf": "/techanzo-knowledge-institute/static/media/regular.32340e13c8577db2650f.otf",
     "index.html": "/techanzo-knowledge-institute/index.html",
     "static/media/book-icon.svg": "/techanzo-knowledge-institute/static/media/book-icon.d496f4a38f1ce365ef46f456cb32217e.svg",
     "main.ed9b3873.css.map": "/techanzo-knowledge-institute/static/css/main.ed9b3873.css.map",
-    "main.5ff5c8b9.js.map": "/techanzo-knowledge-institute/static/js/main.5ff5c8b9.js.map",
+    "main.516457fb.js.map": "/techanzo-knowledge-institute/static/js/main.516457fb.js.map",
     "787.55339e17.chunk.js.map": "/techanzo-knowledge-institute/static/js/787.55339e17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed9b3873.css",
-    "static/js/main.5ff5c8b9.js"
+    "static/js/main.516457fb.js"
   ]
 }
