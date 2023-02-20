@@ -35,7 +35,7 @@ const ModuleCard = ({ module, className }: ModuleCardProps) => {
       </div>
       <Stack direction="row" alignItems="center" gap={8}>
         <BookIcon color={color} />
-        <span className={styles.total} style={{ color }}>{`${totalLectures} Lectures — ${minutesToHours(
+        <span className={styles.total} style={{ color }}>{`${totalLectures} Chapters — ${minutesToHours(
           totalDuration
         )}`}</span>
       </Stack>

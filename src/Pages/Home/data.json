@@ -5,16 +5,16 @@
       "details": {
         "title": "What will you learn?",
         "description": [
-          "The course is complete, yet accessible for beginners. We will start by discovering what WebGL is and why using the Three.js library is a must. We will then discover the various components of Three.js and once the basics are acquired, we will move on to more advanced techniques to display millions of particles, add physics, add interactions, create a galaxy, animate a raging sea, etc.",
-          "At the end of the course, you will have a deep understanding of Three.js and enough experience to start your own projects.",
-          "As a bonus, we will also learn how to use the 3D software Blender to be able to create our own models."
+          "Welcome to our comprehensive course on JavaScript, the language of the internet. Whether you're a beginner or already have some experience with programming, this course will take you from the basics to advanced concepts and best practices, with a deep understanding of JavaScript as a programming language. We have designed this course to be beginner-friendly, with each module building upon the previous one and offering lots of daily tasks and projects to enhance your programming skills and confidence.",
+          "Once you have acquired sufficient knowledge of JavaScript, we will introduce you to React, a powerful JavaScript library developed by Facebook that enables you to develop more features with less code. To become a senior front-end engineer, you’ll need to have knowledge of other third-party libraries, and we have included these as an add-on to the course. While these modules are optional, they are essential for becoming a well-rounded front-end developer. As a bonus, we have also included real-life projects to improve your problem-solving skills. As the saying goes, “the more you sweat in peace, the less you bleed in battle,” so we strongly recommend that you tackle as many projects as possible to challenge yourself and put your new skills into practice.",
+          "We are excited to have you join us on this journey, and we can't wait to see all that you'll achieve with the skills you gain in this course."
         ],
         "modules": [
           {
             "name": "Core Javascript",
             "description": [
-              "Create your first scene and understand fundamentals like cameras, geometries, materials, textures.",
-              "Add a debug panel to tweak your environment and animate everything."
+              "JavaScript is an interpreted programming language that confirms to the ECMAScript specification.",
+              "JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions. In this path you will learn the basics of JavaScript under the hood with lots of daily practice tasks."
             ],
             "lectures": [
               {
@@ -22,7 +22,7 @@
                 "duration": 120,
                 "topics": [
                   { "name": "Introduction and history of Javascript", "duration": 0 },
-                  { "name": "w3 manuals & ECMA Script specifications", "duration": 0 },
+                  { "name": "w3c manuals & ECMA Script specifications", "duration": 0 },
                   { "name": "Code editors", "duration": 0 },
                   { "name": "Developer tools", "duration": 0 }
                 ]
@@ -92,7 +92,7 @@
               },
               {
                 "name": "Code quality and debugging",
-                "duration": 0,
+                "duration": 420,
                 "tags": ["add-on"],
                 "topics": [
                   {
@@ -243,7 +243,7 @@
               },
               {
                 "name": "Date & Time",
-                "duration": 0,
+                "duration": 360,
                 "tags": ["add-on"],
                 "topics": [
                   {
@@ -414,7 +414,7 @@
           {
             "name": "DOM",
             "description": [
-              "Illuminate your scene with various lights, start practicing environment creation and create millions of particles."
+              "When an HTML file is loaded into the browser, JavaScript cannot understand the HTML document directly. So, a corresponding document is created (DOM). In this path you learn this programming interface that allows us to create, change, or remove elements from the document. We can also add events to these elements to make our page more dynamic."
             ],
             "lectures": [
               {
@@ -574,7 +574,7 @@
           {
             "name": "Advanced Javascript",
             "description": [
-              "Add physics to your world so that objects start to collide and stumble. Then import your own model made with Blender and make it look as realistic as possible."
+              "JavaScript is a single-threaded programming language which means JavaScript engine can only process one statement at a time, this prevents concurrency issues but, this also means you can’t perform long operations such as network access without blocking the main thread. That’s where asynchronous JavaScript comes into play. Using asynchronous JavaScript, you can perform long network requests without blocking the main thread requesting some data from an API."
             ],
             "lectures": [
               {
@@ -720,8 +720,7 @@
           {
             "name": "Advanced DOM",
             "description": [
-              "Using Three.js materials is great but creating your own is even better.",
-              "Learn the shader language to unleash the true power of WebGL and create stunning experiences!"
+              "This is an extension of DOM module. Here you learn about advanced manipulation of DOM with browser functionality and asynchronous JavaScript which enables you to optimize performance of your app and maintain project effectively."
             ],
             "lectures": [
               {
@@ -820,8 +819,7 @@
           {
             "name": "Browser functionalities",
             "description": [
-              "Once you know shaders, it's the opportunity to go even further and try new techniques.",
-              "But it's also important to make sure your projects are working on most devices by monitoring and optimising performance."
+              "To understand client-side JavaScript, you must understand the conceptual framework of the programming environment provided by a web browser. Using this browser functionalities, you can make efficient and advanced web apps."
             ],
             "lectures": [
               {
@@ -957,8 +955,7 @@
           {
             "name": "React",
             "description": [
-              "Once you know shaders, it's the opportunity to go even further and try new techniques.",
-              "But it's also important to make sure your projects are working on most devices by monitoring and optimising performance."
+              "React is a JavaScript-based UI development library. Facebook (now Meta) and an open-source developer community run it. Although React is a library rather than a language, it is widely used in web development. The library first appeared in May 2013 and is now one of the most used front-end libraries for web development. Using react you can make an awesome web app that improves the standard of humanity."
             ],
             "lectures": [
               {
